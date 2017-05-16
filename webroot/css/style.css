@@ -1,0 +1,35 @@
+.height-100{
+    height: 100%;
+}
+.actions .md-primary,
+.actions .md-warn{
+    color:#fff !important;
+}
+.actions .md-icon-button{
+    opacity: .5;
+}
+.f-right{
+    float: right;
+}
+.section{
+	text-align:center;
+}
+.md-toolbar.md-default-theme:not(.md-menu-toolbar).md-accent, md-toolbar:not(.md-menu-toolbar).md-accent{
+   background-color: rgb(63,81,181);
+}
+
+.md-checkbox.md-default-theme.md-checked .md-ink-ripple, md-checkbox.md-checked .md-ink-ripple{
+   background-color: rgb(63,81,181);
+}
+
+.md-switch.md-default-theme.md-checked .md-thumb, md-switch.md-checked .md-thumb{
+   background-color: rgb(63,81,181);
+}
+
+.md-checkbox.md-default-theme.md-checked .md-icon, md-checkbox.md-checked .md-icon{
+   background-color: rgb(63,81,181);
+}
+
+.md-switch.md-default-theme.md-checked .md-bar, md-switch.md-checked .md-bar{
+  background-color: rgb(107, 116, 171);
+}
