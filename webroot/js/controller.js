@@ -6,6 +6,7 @@ angular.module('BlankApp', ['ngMaterial','ngMessages','md.data.table','chart.js'
     $scope.pdf = function(id){
 
       var doc = new jsPDF();
+      var id = id;
 
       var data = $filter('date')($scope.selected[0].data, "dd/MM/yyyy");
       doc.text('Data: '+data, 150, 40);
@@ -30,7 +31,8 @@ angular.module('BlankApp', ['ngMaterial','ngMessages','md.data.table','chart.js'
       }
 
       var ass= new Image();
-      ass.src = 'img/'+id+'.png';
+      ass.src = 'img/'+this.id+'.png';
+      console.log('img/'+this.id+'.png');
 
       var logo = new Image();
       logo .src = 'img/logo.png';
